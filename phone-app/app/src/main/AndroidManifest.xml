@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- M:YOU 스마트폰 앱: 운전자 프로필·디지털 키·선호 설정 관리 (차량 앱과 짝) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 시연용: 같은 PC의 차량 에뮬레이터(10.0.2.2:9000)와 동기화 (CarSync 참고) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 차량과 연결된 동안 휴식 상태를 계속 확인 (CarWatchService) -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <application
+        android:name=".MyouPhoneApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/car_sync_network"
+        android:theme="@style/Theme.Myou">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".sync.CarWatchService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="차량 휴식모드 상태를 확인해 휴식이 끝나면 운전자에게 알림" />
+        </service>
+    </application>
+
+</manifest>

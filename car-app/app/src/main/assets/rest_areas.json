@@ -1,0 +1,2053 @@
+[
+ {
+  "id": "giheung-seoul",
+  "name": "기흥휴게소",
+  "type": "SERVICE_AREA",
+  "lat": 37.2363,
+  "lng": 127.0985,
+  "radiusM": 300,
+  "sample": true
+ },
+ {
+  "id": "anseong-seoul",
+  "name": "안성휴게소",
+  "type": "SERVICE_AREA",
+  "lat": 37.0063,
+  "lng": 127.2238,
+  "radiusM": 300,
+  "sample": true
+ },
+ {
+  "id": "manghyang-busan",
+  "name": "망향휴게소",
+  "type": "SERVICE_AREA",
+  "lat": 36.9372,
+  "lng": 127.1508,
+  "radiusM": 300,
+  "sample": true
+ },
+ {
+  "id": "shelter-1",
+  "name": "오창 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.734646,
+  "lng": 127.456615,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-2",
+  "name": "봉양 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.178504,
+  "lng": 128.128943,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-3",
+  "name": "가남 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.169074,
+  "lng": 127.626537,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-4",
+  "name": "앙성 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.099407,
+  "lng": 127.715727,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-5",
+  "name": "노은 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.039839,
+  "lng": 127.770346,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-6",
+  "name": "대소원 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.9744,
+  "lng": 127.847768,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-7",
+  "name": "회인 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.501794,
+  "lng": 127.59175,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-8",
+  "name": "탄부 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.454413,
+  "lng": 127.769757,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-9",
+  "name": "탄부 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.454413,
+  "lng": 127.769757,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-10",
+  "name": "상주 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.425756,
+  "lng": 128.044295,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-11",
+  "name": "상주 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.407458,
+  "lng": 128.069924,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-12",
+  "name": "중앙탑 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.041402,
+  "lng": 127.831891,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-13",
+  "name": "중앙탑 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.040719,
+  "lng": 127.83045,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-14",
+  "name": "금성 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.078167,
+  "lng": 128.150431,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-15",
+  "name": "금성 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.077848,
+  "lng": 128.150278,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-16",
+  "name": "인제 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.840931,
+  "lng": 128.233328,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-17",
+  "name": "양양 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.996229,
+  "lng": 128.534402,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-18",
+  "name": "양양 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.999567,
+  "lng": 128.536384,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-19",
+  "name": "이천 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.242797,
+  "lng": 127.467063,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-20",
+  "name": "이천 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.241769,
+  "lng": 127.465493,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-21",
+  "name": "여주 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.342286,
+  "lng": 127.546418,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-22",
+  "name": "여주 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.341661,
+  "lng": 127.54672,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-23",
+  "name": "모가 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.19659,
+  "lng": 127.443318,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-24",
+  "name": "모가 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.196856,
+  "lng": 127.443429,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-25",
+  "name": "일죽 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.084238,
+  "lng": 127.457009,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-26",
+  "name": "일죽 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.084238,
+  "lng": 127.457009,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-27",
+  "name": "대소 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.977074,
+  "lng": 127.469281,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-28",
+  "name": "진천 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.853611,
+  "lng": 127.486878,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-29",
+  "name": "농다리 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.834656,
+  "lng": 127.494039,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-30",
+  "name": "오창 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.7352,
+  "lng": 127.456313,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-31",
+  "name": "삽교 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.522165,
+  "lng": 128.274327,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-32",
+  "name": "월정 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.664725,
+  "lng": 128.593228,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-33",
+  "name": "월정 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.663928,
+  "lng": 128.593233,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-34",
+  "name": "대관령 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.675173,
+  "lng": 128.720216,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-35",
+  "name": "대관령전망대 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.724009,
+  "lng": 128.779002,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-36",
+  "name": "홍천강 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.711753,
+  "lng": 127.827585,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-37",
+  "name": "만종 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.349582,
+  "lng": 127.908801,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-38",
+  "name": "만종 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.350147,
+  "lng": 127.90991,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-39",
+  "name": "횡성 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.573915,
+  "lng": 127.973639,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-40",
+  "name": "횡성 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.581118,
+  "lng": 127.974144,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-41",
+  "name": "북방 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.758101,
+  "lng": 127.880209,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-42",
+  "name": "단봉 졸음쉼터 (동해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.459715,
+  "lng": 129.107133,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-43",
+  "name": "강현 졸음쉼터 (동해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 38.118474,
+  "lng": 128.579583,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-44",
+  "name": "강현 졸음쉼터 (동해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 38.119539,
+  "lng": 128.579711,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-45",
+  "name": "인제 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.843475,
+  "lng": 128.235401,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-46",
+  "name": "번천 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.454462,
+  "lng": 127.254336,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-47",
+  "name": "번천 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.454462,
+  "lng": 127.254336,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-48",
+  "name": "도척 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.323327,
+  "lng": 127.338784,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-49",
+  "name": "도척 졸음쉼터 (중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.323327,
+  "lng": 127.338784,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-50",
+  "name": "상번천 졸음쉼터 (제2중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.448652,
+  "lng": 127.273677,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-51",
+  "name": "상번천 졸음쉼터 (제2중부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.447871,
+  "lng": 127.275447,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-52",
+  "name": "청계 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.39327,
+  "lng": 127.02231,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-53",
+  "name": "성남 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.441191,
+  "lng": 127.134719,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-54",
+  "name": "구리남양주 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.589703,
+  "lng": 127.155902,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-55",
+  "name": "생태습지 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.235266,
+  "lng": 127.603842,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-56",
+  "name": "적금 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.252854,
+  "lng": 127.703654,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-57",
+  "name": "적금 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.258857,
+  "lng": 127.7153,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-58",
+  "name": "소초 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.420264,
+  "lng": 128.00195,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-59",
+  "name": "소초 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.420264,
+  "lng": 128.00195,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-60",
+  "name": "삽교 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.522933,
+  "lng": 128.275488,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-61",
+  "name": "김포 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.592299,
+  "lng": 126.768356,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-62",
+  "name": "김포 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.587002,
+  "lng": 126.760663,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-63",
+  "name": "시흥 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.450713,
+  "lng": 126.803842,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-64",
+  "name": "시흥 졸음쉼터 (서울외곽선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.450481,
+  "lng": 126.803188,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-65",
+  "name": "서서울 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.356643,
+  "lng": 126.864824,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-66",
+  "name": "서서울 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.354933,
+  "lng": 126.861988,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-67",
+  "name": "군자 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.358756,
+  "lng": 126.780781,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-68",
+  "name": "이목 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.319551,
+  "lng": 126.985765,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-69",
+  "name": "용인 졸음쉼터 (영동선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.288616,
+  "lng": 127.138727,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-70",
+  "name": "향남 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.070121,
+  "lng": 126.888356,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-71",
+  "name": "송탄 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.030977,
+  "lng": 127.080325,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-72",
+  "name": "송탄 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.032321,
+  "lng": 127.081361,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-73",
+  "name": "오산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.156708,
+  "lng": 127.087165,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-74",
+  "name": "오산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.154266,
+  "lng": 127.086103,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-75",
+  "name": "남사 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.096192,
+  "lng": 127.120738,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-76",
+  "name": "원곡 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.001112,
+  "lng": 127.151971,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-77",
+  "name": "광혜원 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.95215,
+  "lng": 127.425872,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-78",
+  "name": "문경 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.747011,
+  "lng": 128.061138,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-79",
+  "name": "사벌 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.462887,
+  "lng": 128.200327,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-80",
+  "name": "낙상 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.447565,
+  "lng": 128.205901,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-81",
+  "name": "문경 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.717863,
+  "lng": 128.104187,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-82",
+  "name": "연곡 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.954311,
+  "lng": 127.183007,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-83",
+  "name": "입장 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.914432,
+  "lng": 127.188465,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-84",
+  "name": "옥산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.655882,
+  "lng": 127.372294,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-85",
+  "name": "신탄진 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.425354,
+  "lng": 127.416697,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-86",
+  "name": "서대전 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.315694,
+  "lng": 127.306612,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-87",
+  "name": "유성 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.380886,
+  "lng": 127.335465,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-88",
+  "name": "북대전 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.406603,
+  "lng": 127.367566,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-89",
+  "name": "북대전 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.406172,
+  "lng": 127.36782,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-90",
+  "name": "옥천 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.328096,
+  "lng": 127.540893,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-91",
+  "name": "옥천 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.336247,
+  "lng": 127.528427,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-92",
+  "name": "청성 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.271712,
+  "lng": 127.740758,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-93",
+  "name": "추풍령 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.210623,
+  "lng": 127.988641,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-94",
+  "name": "추풍령 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.210985,
+  "lng": 127.988546,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-95",
+  "name": "산내 졸음쉼터 (대전라남도부순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.280808,
+  "lng": 127.449556,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-96",
+  "name": "당진 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.90075,
+  "lng": 126.718469,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-97",
+  "name": "당진 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.90075,
+  "lng": 126.718469,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-98",
+  "name": "용연 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.861234,
+  "lng": 126.645546,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-99",
+  "name": "고북 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.651161,
+  "lng": 126.558312,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-100",
+  "name": "갈산 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.634716,
+  "lng": 126.553128,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-101",
+  "name": "서산 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.828862,
+  "lng": 126.588515,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-102",
+  "name": "금남 졸음쉼터 (당진대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.450628,
+  "lng": 127.254082,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-103",
+  "name": "시초 졸음쉼터 (서천공주선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.127714,
+  "lng": 126.766164,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-104",
+  "name": "부여 졸음쉼터 (서천공주선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.319451,
+  "lng": 126.874315,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-105",
+  "name": "삼례 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.902276,
+  "lng": 127.057549,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-106",
+  "name": "삼례 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.918136,
+  "lng": 127.070085,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-107",
+  "name": "전주 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.869564,
+  "lng": 127.051386,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-108",
+  "name": "전주 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.869478,
+  "lng": 127.051668,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-109",
+  "name": "태인 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.663506,
+  "lng": 126.93225,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-110",
+  "name": "정우 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.635362,
+  "lng": 126.900851,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-111",
+  "name": "정우 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.636292,
+  "lng": 126.902826,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-112",
+  "name": "내장산 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.495456,
+  "lng": 126.797915,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-113",
+  "name": "내장산 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.537523,
+  "lng": 126.813817,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-114",
+  "name": "마이산 졸음쉼터 (익산장수선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.770528,
+  "lng": 127.359072,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-115",
+  "name": "마이산 졸음쉼터 (익산장수선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.767636,
+  "lng": 127.362933,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-116",
+  "name": "금산 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.032435,
+  "lng": 127.572074,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-117",
+  "name": "금산 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.060778,
+  "lng": 127.551852,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-118",
+  "name": "무주 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.934713,
+  "lng": 127.659818,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-119",
+  "name": "무주 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.911465,
+  "lng": 127.666254,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-120",
+  "name": "논산 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.15955,
+  "lng": 127.175765,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-121",
+  "name": "논산 졸음쉼터 (호남지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.153446,
+  "lng": 127.164785,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-122",
+  "name": "완주 졸음쉼터 (익산장수선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.92803,
+  "lng": 127.101174,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-123",
+  "name": "완주 졸음쉼터 (익산장수선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.928358,
+  "lng": 127.100766,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-124",
+  "name": "서김제 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.852942,
+  "lng": 126.842654,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-125",
+  "name": "서김제 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.852575,
+  "lng": 126.842867,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-126",
+  "name": "줄포 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.570434,
+  "lng": 126.694773,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-127",
+  "name": "고창 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.377757,
+  "lng": 126.604047,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-128",
+  "name": "광천 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.478635,
+  "lng": 126.587237,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-129",
+  "name": "무창포 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.274923,
+  "lng": 126.579125,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-130",
+  "name": "춘장대 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.18898,
+  "lng": 126.592958,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-131",
+  "name": "춘장대 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.198937,
+  "lng": 126.588426,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-132",
+  "name": "서천 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.068796,
+  "lng": 126.747055,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-133",
+  "name": "서천 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.068796,
+  "lng": 126.747055,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-134",
+  "name": "담양 졸음쉼터 (광주광역시대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.260944,
+  "lng": 126.971169,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-135",
+  "name": "장성 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.315455,
+  "lng": 126.793558,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-136",
+  "name": "장성 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.31689,
+  "lng": 126.793977,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-137",
+  "name": "대덕 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.245064,
+  "lng": 127.02583,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-138",
+  "name": "삼기 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.234049,
+  "lng": 127.20417,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-139",
+  "name": "삼기 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.233839,
+  "lng": 127.204181,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-140",
+  "name": "장성물류 졸음쉼터 (고창담양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.347596,
+  "lng": 126.778012,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-141",
+  "name": "장성물류 졸음쉼터 (고창담양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.347252,
+  "lng": 126.777796,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-142",
+  "name": "태령 졸음쉼터 (고창담양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.248834,
+  "lng": 126.928347,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-143",
+  "name": "태령 졸음쉼터 (고창담양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.248834,
+  "lng": 126.928347,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-144",
+  "name": "주암 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.055935,
+  "lng": 127.277355,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-145",
+  "name": "주암 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.055935,
+  "lng": 127.277355,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-146",
+  "name": "순천 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.996063,
+  "lng": 127.493699,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-147",
+  "name": "광양 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.984026,
+  "lng": 127.589147,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-148",
+  "name": "광양 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.984026,
+  "lng": 127.589147,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-149",
+  "name": "영광 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.249456,
+  "lng": 126.518972,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-150",
+  "name": "진주 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.197443,
+  "lng": 128.029189,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-151",
+  "name": "진주 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.196979,
+  "lng": 128.029532,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-152",
+  "name": "울산 졸음쉼터 (울산선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.550442,
+  "lng": 129.167529,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-153",
+  "name": "울산 졸음쉼터 (울산선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.550077,
+  "lng": 129.167603,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-154",
+  "name": "현풍 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.666717,
+  "lng": 128.435925,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-155",
+  "name": "창녕 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.530879,
+  "lng": 128.488572,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-156",
+  "name": "창녕 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.544935,
+  "lng": 128.475746,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-157",
+  "name": "금곡 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.09473,
+  "lng": 128.164291,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-158",
+  "name": "금곡 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.094952,
+  "lng": 128.164466,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-159",
+  "name": "고성 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.981754,
+  "lng": 128.373516,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-160",
+  "name": "고성 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.981754,
+  "lng": 128.373516,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-161",
+  "name": "내남 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.752259,
+  "lng": 129.194721,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-162",
+  "name": "언양 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.59837,
+  "lng": 129.140183,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-163",
+  "name": "삼남 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.545332,
+  "lng": 129.118872,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-164",
+  "name": "양산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.34313,
+  "lng": 129.042803,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-165",
+  "name": "양산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.342356,
+  "lng": 129.042148,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-166",
+  "name": "김해 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.220854,
+  "lng": 128.870291,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-167",
+  "name": "북창원 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.283148,
+  "lng": 128.617202,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-168",
+  "name": "진례 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.249324,
+  "lng": 128.758979,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-169",
+  "name": "진례 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.245286,
+  "lng": 128.760301,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-170",
+  "name": "창원 졸음쉼터 (남해1지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.263315,
+  "lng": 128.61201,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-171",
+  "name": "창원 졸음쉼터 (남해1지선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.263315,
+  "lng": 128.61201,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-172",
+  "name": "곤양 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.05317,
+  "lng": 127.944696,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-173",
+  "name": "곤양 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.05317,
+  "lng": 127.944696,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-174",
+  "name": "지수 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.206597,
+  "lng": 128.253706,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-175",
+  "name": "지수 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.207996,
+  "lng": 128.258237,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-176",
+  "name": "서상 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.635279,
+  "lng": 127.708836,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-177",
+  "name": "서상 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.633503,
+  "lng": 127.713907,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-178",
+  "name": "수동 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.517246,
+  "lng": 127.796233,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-179",
+  "name": "수동 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.517246,
+  "lng": 127.796233,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-180",
+  "name": "금서 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.440322,
+  "lng": 127.853235,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-181",
+  "name": "금서 졸음쉼터 (통영대전선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.438379,
+  "lng": 127.854783,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-182",
+  "name": "보문 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.689789,
+  "lng": 128.554036,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-183",
+  "name": "풍산 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.603154,
+  "lng": 128.58416,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-184",
+  "name": "죽령 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.913506,
+  "lng": 128.397701,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-185",
+  "name": "죽령 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.91372,
+  "lng": 128.396901,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-186",
+  "name": "아포 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.198077,
+  "lng": 128.2591,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-187",
+  "name": "선산 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.213099,
+  "lng": 128.262129,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-188",
+  "name": "오봉 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.092614,
+  "lng": 128.261663,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-189",
+  "name": "개진 졸음쉼터 (중부내륙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.704149,
+  "lng": 128.417746,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-190",
+  "name": "삼춘 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.421027,
+  "lng": 128.576998,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-191",
+  "name": "하화 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.418827,
+  "lng": 128.699326,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-192",
+  "name": "묵계 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.437862,
+  "lng": 128.928792,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-193",
+  "name": "지품 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.480948,
+  "lng": 129.17473,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-194",
+  "name": "수암 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.461596,
+  "lng": 129.21077,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-195",
+  "name": "일광 졸음쉼터 (부산외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.292339,
+  "lng": 129.206194,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-196",
+  "name": "일광 졸음쉼터 (부산외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.292339,
+  "lng": 129.206194,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-197",
+  "name": "김해 졸음쉼터 (남해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.220854,
+  "lng": 128.870291,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-198",
+  "name": "북안 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.924622,
+  "lng": 128.998012,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-199",
+  "name": "북안 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.92463,
+  "lng": 128.999844,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-200",
+  "name": "칠곡 졸음쉼터 (대구외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.904914,
+  "lng": 128.479486,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-201",
+  "name": "칠곡 졸음쉼터 (대구외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.910297,
+  "lng": 128.504056,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-202",
+  "name": "봉무 졸음쉼터 (대구외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.932594,
+  "lng": 128.651089,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-203",
+  "name": "봉무 졸음쉼터 (대구외곽순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.931482,
+  "lng": 128.652543,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-204",
+  "name": "안평 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.379764,
+  "lng": 128.577111,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-205",
+  "name": "안평 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.379031,
+  "lng": 128.577479,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-206",
+  "name": "명곡 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.125654,
+  "lng": 128.541097,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-207",
+  "name": "명곡 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.125608,
+  "lng": 128.541782,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-208",
+  "name": "읍내 졸음쉼터 (중앙선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.94842,
+  "lng": 128.547666,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-209",
+  "name": "화산 졸음쉼터 (대구포항선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.017066,
+  "lng": 128.8855,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-210",
+  "name": "남상 졸음쉼터 (광주광역시대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.611234,
+  "lng": 127.881546,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-211",
+  "name": "남상 졸음쉼터 (광주광역시대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.636051,
+  "lng": 127.906245,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-212",
+  "name": "쌍림 졸음쉼터 (광주광역시대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.700644,
+  "lng": 128.233885,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-213",
+  "name": "고령 졸음쉼터 (광주광역시대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.722402,
+  "lng": 128.297348,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-214",
+  "name": "몽탄 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.952575,
+  "lng": 126.503821,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-215",
+  "name": "몽탄 졸음쉼터 (서해안선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.945768,
+  "lng": 126.504596,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-216",
+  "name": "벌교 졸음쉼터 (남해선(영암순천))",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.823812,
+  "lng": 127.381603,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-217",
+  "name": "강진 졸음쉼터 (남해선(영암순천))",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.686562,
+  "lng": 126.774024,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-218",
+  "name": "강진 졸음쉼터 (남해선(영암순천))",
+  "type": "DROWSY_SHELTER",
+  "lat": 34.694235,
+  "lng": 126.755097,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-219",
+  "name": "대강 졸음쉼터 (광주대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.385273,
+  "lng": 127.234343,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-220",
+  "name": "봉산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.156432,
+  "lng": 128.02568,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-221",
+  "name": "봉산 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.156517,
+  "lng": 128.02649,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-222",
+  "name": "대신 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.152511,
+  "lng": 128.191239,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-223",
+  "name": "대신 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.152819,
+  "lng": 128.190756,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-224",
+  "name": "선기 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.136307,
+  "lng": 128.316179,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-225",
+  "name": "선기 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.136271,
+  "lng": 128.3165,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-226",
+  "name": "석적 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.051633,
+  "lng": 128.408056,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-227",
+  "name": "지천 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.922121,
+  "lng": 128.484474,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-228",
+  "name": "검단 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.914918,
+  "lng": 128.613472,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-229",
+  "name": "검단 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.915739,
+  "lng": 128.614451,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-230",
+  "name": "동산 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.755496,
+  "lng": 127.734939,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-231",
+  "name": "화도 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.631118,
+  "lng": 127.296425,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-232",
+  "name": "화도 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.632074,
+  "lng": 127.298592,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-233",
+  "name": "남산 졸음쉼터 (서울양양선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.741708,
+  "lng": 127.672173,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-234",
+  "name": "손양 졸음쉼터 (동해선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 38.042784,
+  "lng": 128.657106,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-235",
+  "name": "동광주 졸음쉼터 (호남선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.208551,
+  "lng": 126.93939,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-236",
+  "name": "함양 졸음쉼터 (광주대구선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.543443,
+  "lng": 127.69929,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-237",
+  "name": "하빈 졸음쉼터 (경부선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.932336,
+  "lng": 128.474457,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-238",
+  "name": "남정 졸음쉼터 (포항영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.34806,
+  "lng": 129.357611,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-239",
+  "name": "남정 졸음쉼터 (포항영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.347541,
+  "lng": 129.358445,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-240",
+  "name": "흥해 졸음쉼터 (포항영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.133756,
+  "lng": 129.380605,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-241",
+  "name": "흥해 졸음쉼터 (포항영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.132641,
+  "lng": 129.381515,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-242",
+  "name": "배방 졸음쉼터 (당진청주선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.771497,
+  "lng": 127.093206,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-243",
+  "name": "배방 졸음쉼터 (당진청주선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.771618,
+  "lng": 127.091578,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-244",
+  "name": "진봉 졸음쉼터 (새만금전주)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.852717,
+  "lng": 126.780756,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-245",
+  "name": "진봉 졸음쉼터 (새만금전주)",
+  "type": "DROWSY_SHELTER",
+  "lat": 35.853632,
+  "lng": 126.77579,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-246",
+  "name": "광혜원 졸음쉼터 (평택제천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.954353,
+  "lng": 127.416561,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-247",
+  "name": "수한 졸음쉼터 (청주영덕선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 36.472968,
+  "lng": 127.657446,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-248",
+  "name": "양지 졸음쉼터 (세종포천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.241176,
+  "lng": 127.250995,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-249",
+  "name": "양지 졸음쉼터 (세종포천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.242072,
+  "lng": 127.251754,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-250",
+  "name": "서양주 졸음쉼터 (수도권제2순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.849137,
+  "lng": 126.9971,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-251",
+  "name": "서양주 졸음쉼터 (수도권제2순환선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.848519,
+  "lng": 126.998062,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-252",
+  "name": "소흘 졸음쉼터 (구리포천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.829022,
+  "lng": 127.159791,
+  "radiusM": 150
+ },
+ {
+  "id": "shelter-253",
+  "name": "소흘 졸음쉼터 (구리포천선)",
+  "type": "DROWSY_SHELTER",
+  "lat": 37.827983,
+  "lng": 127.159193,
+  "radiusM": 150
+ }
+]

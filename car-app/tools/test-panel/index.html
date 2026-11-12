@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M:YOU 테스트 패널</title>
+<style>
+  :root {
+    --bg: #f6f7fb; --card: #ffffff; --text: #1b1d24; --muted: #6b7080; --line: #e3e5ec;
+    --accent: #3d5a98; --accent-text: #ffffff; --on: #1f8a4c; --off: #9a9fae; --warn: #c2410c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161c; --card: #1d2029; --text: #eceef4; --muted: #9aa0b0; --line: #2c303b;
+            --accent: #8fa8e0; --accent-text: #14161c; --on: #4cc282; --off: #6b7080; --warn: #f0894e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  header { padding: 18px 20px 6px; }
+  h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  main { display: grid; gap: 14px; padding: 14px 20px 28px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; }
+  h2 { margin: 0 0 10px; font-size: 15px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .row + .row { margin-top: 8px; }
+  button { min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line);
+           background: transparent; color: var(--text); font: inherit; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+  button.sel { outline: 2px solid var(--accent); outline-offset: 1px; font-weight: 600; }
+  button:disabled { opacity: .5; cursor: default; }
+  .stat { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; }
+  .stat dt { color: var(--muted); }
+  .stat dd { margin: 0; font-weight: 600; }
+  .on { color: var(--on); } .off { color: var(--off); }
+  .axis { display: grid; grid-template-columns: 1fr auto 44px auto; gap: 8px; align-items: center; }
+  .axis + .axis { margin-top: 6px; }
+  .axis b { text-align: center; font-variant-numeric: tabular-nums; }
+  .axis button { min-width: 52px; }
+  #log { grid-column: 1 / -1; color: var(--muted); font-size: 13px; min-height: 20px; }
+  #log.err { color: var(--warn); }
+  .hint { color: var(--muted); font-size: 13px; margin: 8px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>M:YOU 테스트 패널</h1>
+  <p>에뮬레이터 차량을 조작하는 시험용 화면입니다. 차량 에뮬레이터 옆에 띄워 두고 쓰세요.</p>
+</header>
+<main>
+  <section>
+    <h2>차량 상태</h2>
+    <dl class="stat">
+      <dt>시동</dt><dd id="s-power">-</dd>
+      <dt>기어</dt><dd id="s-gear">-</dd>
+      <dt>문 잠금</dt><dd id="s-lock">-</dd>
+      <dt>운전석 문</dt><dd id="s-door">-</dd>
+      <dt>주차 브레이크</dt><dd id="s-pb">-</dd>
+      <dt>시트</dt><dd id="s-seat">-</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>시동 버튼</h2>
+    <div class="row">
+      <button class="primary" data-power="On">시동 ON</button>
+      <button data-power="Off">시동 OFF</button>
+    </div>
+    <p class="hint">키로 접근해 이지 액세스가 된 뒤 시동 ON 을 누르면 맞춤 자세로 바뀝니다.</p>
+  </section>
+
+  <section>
+    <h2>기어</h2>
+    <div class="row" id="gears">
+      <button data-gear="Park">P</button><button data-gear="Reverse">R</button>
+      <button data-gear="Neutral">N</button><button data-gear="Drive">D</button>
+    </div>
+    <div class="row">
+      <button data-pb="On">주차 브레이크 걸기</button>
+      <button data-pb="Off">주차 브레이크 풀기</button>
+    </div>
+    <p class="hint">시트 자동 조절은 P 에서, 휴식 제안은 P + 주차 브레이크에서 동작합니다.</p>
+  </section>
+
+  <section>
+    <h2>문</h2>
+    <div class="row">
+      <button data-body="doors_locked=true">전체 잠금</button>
+      <button data-body="doors_locked=false">전체 해제</button>
+    </div>
+    <div class="row">
+      <button data-body="door_fl=true">운전석 문 열기 (탑승)</button>
+      <button data-body="door_fl=false">운전석 문 닫기</button>
+    </div>
+    <div class="row"><button data-body="frunk=false">프렁크 닫기</button></div>
+  </section>
+
+  <section>
+    <h2>운전석 시트 스위치</h2>
+    <div id="axes"></div>
+    <div class="row" style="margin-top:10px"><button id="seat-reset">시트 초기화 (모두 40)</button></div>
+  </section>
+
+  <section>
+    <h2>위치 (휴게소 도착)</h2>
+    <div class="row" id="areas"></div>
+    <div class="row">
+      <select id="shelters" aria-label="졸음쉼터 선택" style="min-height:44px; flex:1; border-radius:10px; padding:0 8px; background:transparent; color:inherit; border:1px solid var(--line)"></select>
+      <button id="shelter-go">졸음쉼터 도착</button>
+    </div>
+    <div class="row"><button id="geo-away">고속도로 주행 중 (휴게소 밖)</button></div>
+    <p class="hint">도착 후 기어 P + 주차 브레이크를 걸면 차량 앱이 휴식모드를 제안합니다.</p>
+  </section>
+
+  <div id="log" role="status" aria-live="polite"></div>
+</main>
+
+<script>
+const C = "http://127.0.0.1:8088";
+const AXES = [["slide", "앞뒤 위치"], ["recline", "등받이 각도"], ["height", "높이"], ["tilt", "쿠션 기울기"]];
+const GEAR_LABEL = { Park: "P", Reverse: "R", Neutral: "N", Drive: "D" };
+const $ = id => document.getElementById(id);
+const log = (msg, err = false) => { $("log").textContent = msg; $("log").className = err ? "err" : ""; };
+let seat = {};
+
+// Virtual Console 은 웹 화면이 1초마다 세션 신호를 보내야 조작을 받는다.
+const sessionId = "myou-panel-" + Math.random().toString(16).slice(2);
+const heartbeat = () => fetch(`${C}/browser/session?client=${sessionId}`, { method: "POST", keepalive: true }).catch(() => {});
+heartbeat(); setInterval(heartbeat, 1000);
+addEventListener("pagehide", () => navigator.sendBeacon(`${C}/browser/session?client=${sessionId}&closing=1`, ""));
+
+async function call(method, path, label) {
+  try {
+    const r = await fetch(C + path, { method });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    log(`${label} 완료`);
+    refresh();
+  } catch (e) {
+    log(`${label} 실패: Virtual Console 연결을 확인하세요 (${e.message})`, true);
+  }
+}
+
+async function refresh() {
+  try {
+    const d = await (await fetch(`${C}/vehicle/state`)).json();
+    const power = d.power_system?.actual?.["0"]?.state ?? "Off";
+    const on = ["Ready", "On", "Driving"].includes(power);
+    $("s-power").textContent = on ? `ON (${power})` : `OFF (${power})`;
+    $("s-power").className = on ? "on" : "off";
+    const gear = d.gear?.actual?.value;
+    $("s-gear").textContent = GEAR_LABEL[gear] ?? "-";
+    document.querySelectorAll("[data-gear]").forEach(b => b.classList.toggle("sel", b.dataset.gear === gear));
+    $("s-lock").textContent = d.body?.door_locks?.all ? "잠김" : "열림";
+    $("s-door").textContent = d.body?.doors?.front_left ? "열림" : "닫힘";
+    $("s-pb").textContent = ["On", "Blink"].includes(d.telltales?.actual?.ParkingBrake?.state) ? "체결" : "해제";
+    seat = Object.fromEntries(AXES.map(([k]) => [k, d.seat?.positions?.[k]?.driver ?? 0]));
+    $("s-seat").textContent = AXES.map(([k]) => seat[k]).join(" / ");
+    AXES.forEach(([k]) => { const el = $(`v-${k}`); if (el) el.textContent = seat[k]; });
+  } catch (e) {
+    $("s-power").textContent = "연결 안 됨";
+  }
+}
+
+const setSeat = (k, v, label) =>
+  call("POST", `/vehicle/seat?kind=position&control=${k}&area=driver&value=${Math.max(0, Math.min(100, v))}`, label);
+
+$("axes").innerHTML = AXES.map(([k, name]) => `
+  <div class="axis"><span>${name}</span>
+    <button data-axis="${k}" data-d="-5" aria-label="${name} 줄이기">−5</button>
+    <b id="v-${k}">-</b>
+    <button data-axis="${k}" data-d="5" aria-label="${name} 늘리기">+5</button></div>`).join("");
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.power) call("POST", `/vehicle/power-system/simulator?state=${b.dataset.power}&area_id=0`, `시동 ${b.dataset.power === "Off" ? "OFF" : "ON"}`);
+  // 에뮬레이터 콘솔에는 주차 브레이크 조작이 없어 계기판 경고등으로 대신한다 (차량 앱도 같은 값을 읽음).
+  else if (b.dataset.pb) call("POST", `/vehicle/telltales/simulator?type=ParkingBrake&state=${b.dataset.pb}&color=Red`, b.textContent);
+  else if (b.dataset.gear) call("PUT", `/vehicle/gear?gear=${b.dataset.gear}`, `기어 ${GEAR_LABEL[b.dataset.gear]}`);
+  else if (b.dataset.body) call("POST", `/vehicle/body?${b.dataset.body}`, b.textContent);
+  else if (b.dataset.axis) setSeat(b.dataset.axis, seat[b.dataset.axis] + Number(b.dataset.d), `시트 ${b.getAttribute("aria-label")}`);
+  else if (b.dataset.lat) geo(b.dataset.lat, b.dataset.lng, `${b.textContent} 위치로 이동`);
+});
+$("seat-reset").onclick = async () => { for (const [k] of AXES) await setSeat(k, 40, "시트 초기화"); };
+
+async function geo(lat, lng, label) {
+  try {
+    const r = await fetch(`/geo?lat=${lat}&lng=${lng}`, { method: "POST" });
+    if (!r.ok) throw new Error((await r.json()).error ?? `HTTP ${r.status}`);
+    log(`${label} 완료`);
+  } catch (e) {
+    log(`${label} 실패: ${e.message} (serve.py 로 패널을 열었는지 확인하세요)`, true);
+  }
+}
+$("geo-away").onclick = () => geo(37.3, 127.2, "휴게소 밖");
+
+fetch("/rest_areas.json").then(r => r.json()).then(list => {
+  $("areas").innerHTML = list.filter(a => a.type === "SERVICE_AREA").map(a =>
+    `<button data-lat="${a.lat}" data-lng="${a.lng}">${a.name}</button>`).join("");
+  const shelters = list.filter(a => a.type === "DROWSY_SHELTER").sort((x, y) => x.name.localeCompare(y.name, "ko"));
+  $("shelters").innerHTML = shelters.map(a => `<option value="${a.lat},${a.lng}">${a.name}</option>`).join("");
+  $("shelter-go").onclick = () => {
+    const [lat, lng] = $("shelters").value.split(",");
+    geo(lat, lng, $("shelters").selectedOptions[0].textContent);
+  };
+}).catch(() => { $("areas").textContent = "휴게소 목록을 불러오지 못했습니다 (serve.py 로 열어 주세요)."; });
+
+refresh(); setInterval(refresh, 1000);
+</script>
+</body>
+</html>
